@@ -1,0 +1,18 @@
+#padre{
+	width: 80%;
+	border: 1px solid black;
+}
+.caja{
+	width: 25%;
+	height: 100px;
+	float:left;
+}
+.caja1{
+	background: yellow;
+}
+.caja2{
+	background:blue;
+}
+.caja3{
+	background:#FF00FF;
+}

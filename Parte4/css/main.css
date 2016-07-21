@@ -1,0 +1,29 @@
+#padre{
+	width: 80%;
+	border: solid 1px black;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display:table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.caja{
+	width: 25%;
+	height: 100px;
+	float:left;
+}
+.caja1{
+	background: yellow;
+}
+.caja2{
+	background:blue;
+}
+.caja3{
+	background:#FF00FF;
+}
